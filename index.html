@@ -8,14 +8,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="./css/modern-normalize.css" />
-    <link rel="stylesheet" href="./css/styles.css" />
+
+
+
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
 
   <body>
     <header class="header">
-      <div class="header-block container">
-        <a href="./index.html" lang="en" class="logo">Web<span class="header-logo">Studio</span></a>
+      <div class="header__block container">
+        <a href="./index.html" lang="en" class="logo">Web<span class="header__logo">Studio</span></a>
         <nav class="navigation">
           <ul class="navigation__list">
             <li class="navigation__item">
@@ -102,12 +105,12 @@
               </div>
               <div class="modal">
                 <label for="user-comment" class="modal__title">Коментар</label>
-                <textarea name="user-comment" class="modal__input modal__input__comment " id="user-comment" placeholder="Введіть текст" rows="7"></textarea>
+                <textarea name="user-comment" class="modal__input modal__input--comment " id="user-comment" placeholder="Введіть текст" rows="7"></textarea>
               </div>
               <div class="privacy">
                 <input type="checkbox" name="mail-send" id="mail-send" required />
                 <label for="mail-send">Погоджуюся з розсилкою та приймаю <a href="#" target="_blank" rel="noopener noreferrer">Умови договору</a></label>
-                <button type="submit" class="button send-btn btn">Відправити</button>
+                <button type="submit" class="privacy__btn btn">Відправити</button>
               </div>
             </div>
           </form>
@@ -391,7 +394,7 @@
     <footer class="footer">
       <div class="container footer__block">
         <div class="footer__address">
-          <a href="./index.html" class="logo" lang="en">Web<span class="footer-logo">Studio</span></a>
+          <a href="./index.html" class="logo" lang="en">Web<span class="footer__logo">Studio</span></a>
           <address>
             <ul>
               <li class="footer__contacts">
@@ -410,28 +413,28 @@
           <h3 class="footer__title">приєднуйтесь</h3>
           <ul class="footer__list socials">
             <li>
-              <a href="#" class="social__link social__link__footer" target="_blank" rel="noopener noreferrer">
+              <a href="#" class="social__link social__link--footer" target="_blank" rel="noopener noreferrer">
                 <svg class="icon footer__icon" width="20" height="20">
                   <use xlink:href="./images/icons.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
             <li>
-              <a href="#" class="social__link social__link__footer" target="_blank" rel="noopener noreferrer">
+              <a href="#" class="social__link social__link--footer" target="_blank" rel="noopener noreferrer">
                 <svg class="icon footer__icon" width="20" height="20">
                   <use xlink:href="./images/icons.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
             <li>
-              <a href="#" class="social__link social__link__footer" target="_blank" rel="noopener noreferrer">
+              <a href="#" class="social__link social__link--footer" target="_blank" rel="noopener noreferrer">
                 <svg class="icon footer__icon" width="20" height="20">
                   <use xlink:href="./images/icons.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
             <li>
-              <a href="#" class="social__link social__link__footer" target="_blank" rel="noopener noreferrer">
+              <a href="#" class="social__link social__link--footer" target="_blank" rel="noopener noreferrer">
                 <svg class="icon footer__icon" width="20" height="20">
                   <use xlink:href="./images/icons.svg#icon-linkedin"></use>
                 </svg>

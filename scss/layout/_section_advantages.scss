@@ -1,0 +1,36 @@
+.advantages {
+    padding-bottom: 0;
+
+    &__list {
+            display: flex;
+            justify-content: center;
+        }
+
+    &__card {
+        display: block;
+        max-width: 270px;
+        &:not(:last-child) {
+                margin-right: 30px;
+            }
+    }
+
+    &__img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 270px;
+        height: 120px;
+        background-color: var(--bg-grey);
+        border-radius: 4px;
+        margin-bottom: 30px;
+    }
+
+    &__header {
+        color: var(--header-text-color);
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.1428;
+        text-transform: uppercase;
+        padding-bottom: 10px;
+    }
+}
