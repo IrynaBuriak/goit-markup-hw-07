@@ -12,6 +12,10 @@ ul {
     list-style: none;
 }
 
+img {
+    display: block;
+}
+
 .section {
     padding: 94px 0;
     
@@ -31,22 +35,25 @@ ul {
     font-size: 14px;
     line-height: 1.1428;
     letter-spacing: 0.02em;
+    &--active{
+        color: var(--accent-color);
+        &::after{
+            content: "";
+            display: block;
+            width: 100%;
+            height: 4px;
+            border-radius: 2px;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            background: var(--accent-color);
+        }
+    }
 }
 
 .icon {
     fill: currentColor;
 }
 
-.hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
+
 

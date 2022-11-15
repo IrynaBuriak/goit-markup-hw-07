@@ -22,7 +22,7 @@
         <nav class="navigation">
           <ul class="navigation__list">
             <li class="navigation__item">
-              <a class="link navigation__link active" href="./index.html">Студія</a>
+              <a class="link navigation__link link--active" href="./index.html">Студія</a>
             </li>
             <li class="navigation__item">
               <a class="link navigation__link" href="./portfolio.html">Портфоліо</a>
@@ -108,7 +108,7 @@
                 <textarea name="user-comment" class="modal__input modal__input--comment " id="user-comment" placeholder="Введіть текст" rows="7"></textarea>
               </div>
               <div class="privacy">
-                <input type="checkbox" name="mail-send" id="mail-send" required />
+                <input class="visually-hidden" type="checkbox" name="mail-send" id="mail-send" required />
                 <label for="mail-send">Погоджуюся з розсилкою та приймаю <a href="#" target="_blank" rel="noopener noreferrer">Умови договору</a></label>
                 <button type="submit" class="privacy__btn btn">Відправити</button>
               </div>
@@ -119,7 +119,7 @@
 
       <section class="section advantages">
         <div class="container">
-          <h2 class="hidden section__title">Наші переваги</h2>
+          <h2 class="section__title visually-hidden">Наші переваги</h2>
           <ul class="advantages__list">
             <li class="advantages__card">
               <div class="advantages__img">
@@ -186,34 +186,34 @@
           <h2 class="section__title">Наша команда</h2>
           <ul class="team__list">
             <li class="team__item">
-              <img class="team__img" src="./images/img1.jpg" alt="Усміхнений чоловік в окулярах у бордовій сорочці" width="270" />
+              <img src="./images/img1.jpg" alt="Усміхнений чоловік в окулярах у бордовій сорочці" width="270" />
               <div class="team__desc">
                 <h3 class="team__name">Ігор Дем'яненко</h3>
                 <p lang="en">Product Designer</p>
                 <ul class="socials">
                   <li>
-                    <a href="#" class="social__link" target="_blank" rel="noopener noreferrer">
+                    <a href="#" class="socials__link" target="_blank" rel="noopener noreferrer">
                       <svg class="icon" width="20" height="20">
                         <use xlink:href="./images/icons.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="social__link" target="_blank" rel="noopener noreferrer">
+                    <a href="#" class="socials__link" target="_blank" rel="noopener noreferrer">
                       <svg class="icon" width="20" height="20">
                         <use xlink:href="./images/icons.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="social__link" target="_blank" rel="noopener noreferrer">
+                    <a href="#" class="socials__link" target="_blank" rel="noopener noreferrer">
                       <svg class="icon" width="20" height="20">
                         <use xlink:href="./images/icons.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="social__link" target="_blank" rel="noopener noreferrer">
+                    <a href="#" class="socials__link" target="_blank" rel="noopener noreferrer">
                       <svg class="icon" width="20" height="20">
                         <use xlink:href="./images/icons.svg#icon-linkedin"></use>
                       </svg>
@@ -224,34 +224,34 @@
             </li>
 
             <li class="team__item">
-              <img class="team__img" src="./images/img2.jpg" alt="Дівчина з посмішкою та білим волоссям в окулярах" width="270" />
+              <img src="./images/img2.jpg" alt="Дівчина з посмішкою та білим волоссям в окулярах" width="270" />
               <div class="team__desc">
                 <h3 class="team__name">Ольга Рєпіна</h3>
                 <p lang="en">Frontend Developer</p>
                 <ul class="socials">
                   <li>
-                    <a href="#" class="social__link" target="_blank" rel="noopener noreferrer">
+                    <a href="#" class="socials__link" target="_blank" rel="noopener noreferrer">
                       <svg class="icon" width="20" height="20">
                         <use xlink:href="./images/icons.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="social__link" target="_blank" rel="noopener noreferrer">
+                    <a href="#" class="socials__link" target="_blank" rel="noopener noreferrer">
                       <svg class="icon" width="20" height="20">
                         <use xlink:href="./images/icons.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="social__link" target="_blank" rel="noopener noreferrer">
+                    <a href="#" class="socials__link" target="_blank" rel="noopener noreferrer">
                       <svg class="icon" width="20" height="20">
                         <use xlink:href="./images/icons.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="social__link" target="_blank" rel="noopener noreferrer">
+                    <a href="#" class="socials__link" target="_blank" rel="noopener noreferrer">
                       <svg class="icon" width="20" height="20">
                         <use xlink:href="./images/icons.svg#icon-linkedin"></use>
                       </svg>
@@ -262,34 +262,34 @@
             </li>
 
             <li class="team__item">
-              <img class="team__img" src="./images/img3.jpg" alt="Усміхнений чоловік в окулярах у блакітній сорочці" width="270" />
+              <img src="./images/img3.jpg" alt="Усміхнений чоловік в окулярах у блакітній сорочці" width="270" />
               <div class="team__desc">
                 <h3 class="team__name">Микола Тарасов</h3>
                 <p lang="en">Marketing</p>
                 <ul class="socials">
                   <li>
-                    <a href="#" class="social__link" target="_blank" rel="noopener noreferrer">
+                    <a href="#" class="socials__link" target="_blank" rel="noopener noreferrer">
                       <svg class="icon" width="20" height="20">
                         <use xlink:href="./images/icons.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="social__link" target="_blank" rel="noopener noreferrer">
+                    <a href="#" class="socials__link" target="_blank" rel="noopener noreferrer">
                       <svg class="icon" width="20" height="20">
                         <use xlink:href="./images/icons.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="social__link" target="_blank" rel="noopener noreferrer">
+                    <a href="#" class="socials__link" target="_blank" rel="noopener noreferrer">
                       <svg class="icon" width="20" height="20">
                         <use xlink:href="./images/icons.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="social__link" target="_blank" rel="noopener noreferrer">
+                    <a href="#" class="socials__link" target="_blank" rel="noopener noreferrer">
                       <svg class="icon" width="20" height="20">
                         <use xlink:href="./images/icons.svg#icon-linkedin"></use>
                       </svg>
@@ -300,34 +300,34 @@
             </li>
 
             <li class="team__item">
-              <img class="team__img" src="./images/img4.jpg" alt="Усміхнений чоловік в окулярах у чорній сорочці" width="270" />
+              <img src="./images/img4.jpg" alt="Усміхнений чоловік в окулярах у чорній сорочці" width="270" />
               <div class="team__desc">
                 <h3 class="team__name">Михайло Єрмаков</h3>
                 <p lang="en">UI Designer</p>
                 <ul class="socials">
                   <li>
-                    <a href="#" class="social__link" target="_blank" rel="noopener noreferrer">
+                    <a href="#" class="socials__link" target="_blank" rel="noopener noreferrer">
                       <svg class="icon" width="20" height="20">
                         <use xlink:href="./images/icons.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="social__link" target="_blank" rel="noopener noreferrer">
+                    <a href="#" class="socials__link" target="_blank" rel="noopener noreferrer">
                       <svg class="icon" width="20" height="20">
                         <use xlink:href="./images/icons.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="social__link" target="_blank" rel="noopener noreferrer">
+                    <a href="#" class="socials__link" target="_blank" rel="noopener noreferrer">
                       <svg class="icon" width="20" height="20">
                         <use xlink:href="./images/icons.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="social__link" target="_blank" rel="noopener noreferrer">
+                    <a href="#" class="socials__link" target="_blank" rel="noopener noreferrer">
                       <svg class="icon" width="20" height="20">
                         <use xlink:href="./images/icons.svg#icon-linkedin"></use>
                       </svg>
@@ -413,28 +413,28 @@
           <h3 class="footer__title">приєднуйтесь</h3>
           <ul class="footer__list socials">
             <li>
-              <a href="#" class="social__link social__link--footer" target="_blank" rel="noopener noreferrer">
+              <a href="#" class="socials__link socials__link--footer" target="_blank" rel="noopener noreferrer">
                 <svg class="icon footer__icon" width="20" height="20">
                   <use xlink:href="./images/icons.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
             <li>
-              <a href="#" class="social__link social__link--footer" target="_blank" rel="noopener noreferrer">
+              <a href="#" class="socials__link socials__link--footer" target="_blank" rel="noopener noreferrer">
                 <svg class="icon footer__icon" width="20" height="20">
                   <use xlink:href="./images/icons.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
             <li>
-              <a href="#" class="social__link social__link--footer" target="_blank" rel="noopener noreferrer">
+              <a href="#" class="socials__link socials__link--footer" target="_blank" rel="noopener noreferrer">
                 <svg class="icon footer__icon" width="20" height="20">
                   <use xlink:href="./images/icons.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
             <li>
-              <a href="#" class="social__link social__link--footer" target="_blank" rel="noopener noreferrer">
+              <a href="#" class="socials__link socials__link--footer" target="_blank" rel="noopener noreferrer">
                 <svg class="icon footer__icon" width="20" height="20">
                   <use xlink:href="./images/icons.svg#icon-linkedin"></use>
                 </svg>
