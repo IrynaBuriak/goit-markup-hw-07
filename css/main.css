@@ -334,10 +334,10 @@ img {
   line-height: 1.1428;
   letter-spacing: 0.02em;
 }
-.link--active {
+.link__active {
   color: var(--accent-color);
 }
-.link--active::after {
+.link__active::after {
   content: "";
   display: block;
   width: 100%;
